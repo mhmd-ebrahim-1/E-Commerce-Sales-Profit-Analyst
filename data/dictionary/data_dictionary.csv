@@ -1,0 +1,33 @@
+Column Name,Description,Data Type,Example,Business Meaning,Transformation
+Row ID,Unique identifier for each row,Integer,1,System identifier for tracking,None
+Order ID,Unique order identifier for each customer,Text,CA-2016-152156,Groups multiple products in one order,None
+Order Date,Date when the order was placed,Date,11/8/2016,Transaction date for analysis,Converted to date format
+Ship Date,Date when the order was shipped,Date,11/11/2016,Fulfillment date for operations,Converted to date format
+Ship Mode,Shipping method specified by the customer,Text,Second Class,Delivery speed and cost category,None
+Customer ID,Unique ID to identify each customer,Text,CG-12520,Customer tracking and relationship management,None
+Customer Name,Name of the customer,Text,Claire Gute,Customer identification and communication,None
+Segment,The segment where the customer belongs,Text,Consumer,Customer categorization for targeting,None
+Country,Country of residence of the customer,Text,United States,Geographic location for regional analysis,None
+City,City of residence of the customer,Text,Henderson,Geographic location for local analysis,None
+State,State of residence of the customer,Text,Kentucky,Geographic location for regional analysis,None
+Postal Code,Postal code of every customer,Text,42420,Geographic location and shipping,None
+Region,Region where the customer belongs,Text,South,Geographic grouping for sales territories,None
+Product ID,Unique ID of the product,Text,FUR-BO-10001798,Product tracking and inventory management,None
+Category,Category of the product ordered,Text,Furniture,High-level product grouping for analysis,None
+Sub-Category,Sub-Category of the product ordered,Text,Bookcases,Detailed product grouping for analysis,None
+Product Name,Name of the product,Text,Bush Somerset Collection Bookcase,Product description and identification,None
+Sales,Sales of the product,Currency,261.96,Revenue generated from the transaction,None
+Quantity,Quantity of the product,Integer,2,Number of units ordered,None
+Discount,Discount provided,Percentage,0,Price reduction applied to the order,None
+Profit,Profit/Loss incurred,Currency,41.91,Net profit or loss from the transaction,None
+Year,Year when the order was placed,Integer,2016,Time period for annual analysis,Derived from Order Date
+Quarter,Quarter when the order was placed,Integer,4,Time period for quarterly analysis,Derived from Order Date
+Month,Month when the order was placed,Integer,11,Time period for monthly analysis,Derived from Order Date
+Month Name,Name of the month,Text,November,Time period for reporting,Derived from Order Date
+Year-Month,Year and month combination,Text,2016-11,Time period for trend analysis,Derived from Order Date
+Week,Week of the year,Integer,45,Time period for weekly analysis,Derived from Order Date
+Day of Week,Day of the week,Text,Tuesday,Time period for operational analysis,Derived from Order Date
+Order-to-Ship Days,Days between order and ship date,Integer,3,Operational efficiency metric,Calculated from dates
+Profit Margin,Profit as percentage of sales,Percentage,16.0,Profitability ratio,Calculated field
+Sales per Quantity,Average price per unit,Currency,130.98,Pricing metric,Calculated field
+Discount Band,Discount category,Text,0%,Discount grouping for analysis,Derived from Discount
