@@ -7,7 +7,7 @@
 
 An end-to-end exploratory and dimensional analysis of e-commerce retail transactions using **Python, Microsoft SQL Server (T-SQL), and Microsoft Power BI**. This project evaluates multi-dimensional sales performance, profit margin dynamics, discount sensitivity, and customer purchase patterns to deliver data-driven business insights.
 
-> **Attribution & Context:** This repository is an adapted and enhanced version of the open-source reference project by [Dheeraj (Dheeraj-Official/E-Commerce-Sales-Profit-Analyst)](https://github.com/Dheeraj-Official/E-Commerce-Sales-Profit-Analyst), with improved documentation, dependency pinning, verified reproducible notebook executions, and clean environment setup.
+
 
 ---
 
@@ -219,7 +219,3 @@ Open `power BI/PowerBI.pbix` directly in **Power BI Desktop** to interact with t
 
 ---
 
-## 10. Acknowledgments & Attribution
-
-- **Original Author & Repository:** [Dheeraj-Official/E-Commerce-Sales-Profit-Analyst](https://github.com/Dheeraj-Official/E-Commerce-Sales-Profit-Analyst)
-- **Dataset:** Public Domain Sample Superstore Dataset
